@@ -1,0 +1,52 @@
+.conatiner{
+
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    #billAmount, #service_text,#text_person{
+
+        border-bottom: 1px solid rgb(25, 9, 144);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        width: 200px;
+        height: 30px;
+
+        margin: 5px 5px;
+    
+    }
+
+    .text_style{
+
+        
+        font-size: small;
+        font-weight: bolder;
+
+    }
+
+    button{
+
+        margin: 30px 15%;
+        text-align: center;
+        width: 150px;
+        height: 30px;
+
+        background-color: brown;
+        color: white;
+    }
+
+        #result{
+
+            color: brown;
+            font-size: small;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
